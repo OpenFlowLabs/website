@@ -6,8 +6,8 @@ weight = 50
 background = "light" # can influence the text color
 particles = true
 
-title = "Syna Theme"
-subtitle = "Showcase your next project"
+title = "OpenFlowLabs GmbH"
+subtitle = "Bringing you to the cloud the right way"
 
 [header]
   image = "header.jpg"
@@ -18,7 +18,7 @@ subtitle = "Showcase your next project"
   #height = "150px" # optional - will default to image height
 
 [[buttons]]
-  text = "Button"
+  text = "First"
   url = "#"
   color = "info" # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
 
@@ -28,7 +28,7 @@ subtitle = "Showcase your next project"
   color = "primary"
 
 [[buttons]]
-  text = "Button"
+  text = "Last"
   url = "#"
   color = "success"
 +++
