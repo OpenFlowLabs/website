@@ -1,0 +1,4 @@
+baseURL = "https://openflowlabs.github.io/"
+languageCode = "de-ch"
+title = "OpenFlowLabs GmbH"
+theme = "syna"
