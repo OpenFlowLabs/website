@@ -1,6 +1,6 @@
 +++
 url = "/"
-title = "Syna Theme"
+title = "OpenFlowLabs GmbH"
 date = "2017-09-07"
 description = "Open Source Theme from Okkur for your next project"
 +++

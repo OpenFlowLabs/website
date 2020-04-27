@@ -6,12 +6,17 @@ weight = 0
 #background = ""
 
 [repo_button]
-  url = "https://github.com/okkur/syna"
-  text = "Star" # default: "Star"
+  url = "https://github.com/openflowlabs"
+  text = "Github" # default: "Github"
   icon = "fab fa-github" # defaults: "fab fa-github"
+
+[about_page]
+  url = "/about"
+  text = "About"
 
 # Branding options
 [asset]
-  image = "logo.svg"
-  text = "Syna"
+  image = "sample.png"
+  text = "OpenFlowLabs"
+  url = "/"
 +++
