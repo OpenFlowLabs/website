@@ -9,13 +9,14 @@ particles = true
 title = "OpenFlowLabs GmbH"
 #subtitle = "Bringing your applications to the cloud, the right way"
 #subtitle = "Cloud does not have to be complicated."
-subtitle = "Taming storm clouds for a living"
+#subtitle = "Taming storm clouds for a living"
+subtitle = "Helping you tame your storm clouds"
 
 [header]
   image = "header.jpg"
 
 [asset]
-  image = "sample.png"
+  image = "sample-2.png"
   #width = "500px" # optional - will default to image width
   #height = "150px" # optional - will default to image height
 

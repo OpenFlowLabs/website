@@ -1,0 +1,27 @@
+{{- $fragment := .self.Params -}}
+{{- $name := strings.TrimSuffix ".md" (replace .self.Name "/index.md" "") -}}
+{{- $bg := $fragment.background | default "secondary" }}
+<section id="{{ $name }}">
+  <div class="overlay container-fluid
+    {{- printf " bg-%s" $bg -}}
+  ">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col text-center
+        {{- if eq $bg "dark" -}}
+          {{- printf " text-%s" "light" -}}
+        {{- else -}}
+          {{- printf " text-%s" "dark" -}}
+        {{- end -}}
+      ">
+        <h4>A solid base for infrastructure and applications</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <h5>illumos</h5>
+        <p>Lorem Ipsum</p>
+      </div>
+    </div>
+  </div>
+</section>
