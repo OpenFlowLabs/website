@@ -7,8 +7,9 @@ background = "dark" # can influence the text color
 particles = true
 
 title = "OpenFlowLabs GmbH"
-subtitle = "Bringing your applications to the cloud, the right way"
+#subtitle = "Bringing your applications to the cloud, the right way"
 #subtitle = "Cloud does not have to be complicated."
+subtitle = "Taming storm clouds for a living"
 
 [header]
   image = "header.jpg"
