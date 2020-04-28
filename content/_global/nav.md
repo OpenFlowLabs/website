@@ -16,7 +16,7 @@ weight = 0
 
 # Branding options
 [asset]
-  image = "sample-2.png"
+  image = "logo.svg"
   text = "OpenFlowLabs"
   url = "/"
 +++

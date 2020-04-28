@@ -16,8 +16,8 @@ subtitle = "Helping you tame your storm clouds"
   image = "header.jpg"
 
 [asset]
-  image = "sample-2.png"
-  #width = "500px" # optional - will default to image width
+  image = "logo.svg"
+  width = "400px" # optional - will default to image width
   #height = "150px" # optional - will default to image height
 
 [[buttons]]

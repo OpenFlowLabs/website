@@ -1,8 +1,8 @@
 +++
-fragment = "illumos-fragment"
+fragment = "intro-fragment"
 disabled = false
 date = "2017-09-09"
-weight = 1001
+weight = 1000
 
 background = "light"
 +++
