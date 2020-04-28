@@ -9,15 +9,13 @@ menu_title = "OpenFlowLabs"
 
 [asset]
   title = "OpenFlowLabs"
-  image = "logo.svg"
+  image = "logo-no-text.svg"
   #text = ""
   url = "/"
 +++
 
-#### Description Title
+#### Credits
 
-Project description such as:
-Open source theme for your next project
-Provided by Okkur Labs
+![powered by illumos](/images/Illumos-web-63px.png) 
 
 Header Photo by Raquel Pedrotti on Unsplash

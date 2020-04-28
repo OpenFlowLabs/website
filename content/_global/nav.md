@@ -7,8 +7,8 @@ weight = 0
 
 [repo_button]
   url = "https://github.com/openflowlabs"
-  text = "Github" # default: "Github"
-  icon = "fab fa-github" # defaults: "fab fa-github"
+  text = "Find us on GitHub"
+  icon = "fab fa-github"
 
 [about_page]
   url = "/about"
@@ -16,7 +16,7 @@ weight = 0
 
 # Branding options
 [asset]
-  image = "logo.svg"
+  image = "logo-no-text.svg"
   text = "OpenFlowLabs"
   url = "/"
 +++

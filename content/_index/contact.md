@@ -1,13 +1,13 @@
 +++
 fragment = "contact"
-#disabled = true
+disabled = true
 date = "2017-09-10"
 weight = 1100
 #background = "light"
 form_name = "defaultContact"
 
-title = "Contact fragment"
-subtitle  = "*not working on demo page*"
+title = "Contact Sales"
+subtitle  = "Let us know if you are interested"
 
 # PostURL can be used with backends such as mailout from caddy
 post_url = "https://example.com/mailout" #default: formspree.io
