@@ -9,7 +9,7 @@ menu_title = "OpenFlowLabs"
 
 [asset]
   title = "OpenFlowLabs"
-  image = "sample.png"
+  image = "logo.svg"
   #text = ""
   url = "/"
 +++
