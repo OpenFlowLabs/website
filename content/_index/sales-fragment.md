@@ -4,7 +4,7 @@ disabled = false
 date = "2020-04-28"
 weight = 1010
 
-background = "light"
+background = "dark"
 
 title = "Partner with us"
 

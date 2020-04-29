@@ -10,7 +10,8 @@ title = "OpenFlowLabs GmbH"
 #subtitle = "Bringing your applications to the cloud, the right way"
 #subtitle = "Cloud does not have to be complicated."
 #subtitle = "Taming storm clouds for a living"
-subtitle = "Helping you tame your storm clouds"
+#subtitle = "Helping you tame your storm clouds"
+subtitle = "Your Partner for Productive and Secure Cloud workloads"
 
 [header]
   image = "header.jpg"
@@ -18,10 +19,15 @@ subtitle = "Helping you tame your storm clouds"
 [asset]
   image = "logo.svg"
   width = "400px" # optional - will default to image width
-  #height = "150px" # optional - will default to image height
+  height = "200px" # optional - will default to image height
 
 [[buttons]]
-  text = "Github"
-  url = "https://github.com/openflowlabs"
-  color = "info" # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
+  text = "Contact"
+  url = "/contact"
+  color = "danger"
+  
+[[buttons]]
+  text = "More"
+  url = "/details"
+  color = "info"
 +++

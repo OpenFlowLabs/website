@@ -3,3 +3,10 @@ languageCode = "de-ch"
 title = "OpenFlowLabs GmbH"
 theme = "syna"
 name = "OpenFlowLabs"
+
+[minify]
+    disableSVG = true
+
+[params]
+    [params.colors]
+        danger = "#ff7149"
