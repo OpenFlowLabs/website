@@ -16,6 +16,6 @@ menu_title = "OpenFlowLabs"
 
 #### Credits
 
-![powered by illumos](/images/Illumos-web-63px.png) 
+infrastructure ![powered by illumos](/images/Illumos-web-63px.png) 
 
 Header Photo by Raquel Pedrotti on Unsplash
