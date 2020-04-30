@@ -7,7 +7,7 @@ weight = 1000
 background = "light"
 
 title = "Consulting Services"
-subtitle = "If you're looking for a awesome partner for your next project feel free to contact us."
+subtitle = "If you're looking for an awesome partner for your next project feel free to contact us."
 
 
 +++
