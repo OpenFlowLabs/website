@@ -26,7 +26,11 @@
                 {{- with $item.asset -}}
                   {{- if .image }}
                     {{- if $self.Params.height }}
-                      <img height="{{ $self.Params.height }}" src="{{ partial "helpers/image.html" (dict "root" $self "this" $this "asset" . "resize" "300x110") }}" class="p-2 w-75 mb-2" alt="{{ .text | default $item.title }}">
+                      {{- if $self.Params.width }}
+                        <img width="{{ $self.Params.width }}" height="{{ $self.Params.height }}" src="{{ partial "helpers/image.html" (dict "root" $self "this" $this "asset" . "resize" "300x110") }}" class="p-2 w-75 mb-2" alt="{{ .text | default $item.title }}">
+                      {{- else }}
+                        <img height="{{ $self.Params.height }}" src="{{ partial "helpers/image.html" (dict "root" $self "this" $this "asset" . "resize" "300x110") }}" class="p-2 w-75 mb-2" alt="{{ .text | default $item.title }}">
+                      {{- end }}
                     {{- else }}
                       <img src="{{ partial "helpers/image.html" (dict "root" $self "this" $this "asset" . "resize" "300x110") }}" class="p-2 w-75 mb-2" alt="{{ .text | default $item.title }}">
                     {{- end }}
