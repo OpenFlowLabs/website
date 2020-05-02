@@ -4,6 +4,6 @@ weight = 10
 
 [asset]
     image = "PhoenixRGB.svg"
-    url = "/aurora-opencloud"
+    #url = "/aurora-opencloud"
     size = "10"
 +++
