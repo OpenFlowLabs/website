@@ -10,3 +10,11 @@ name = "OpenFlowLabs"
 [params]
     [params.colors]
         danger = "#ff7149"
+
+  # Theme customizations
+  # Assets relative to 'static/'
+  [params.custom]
+    favicon = "images/logo-no-text-favicon.ico"
+    favicon_ico_sizes = "32x32"
+    favicon_png = "images/logo-no-text-favicon.png"
+    favicon_svg = "images/logo-no-text.svg"
