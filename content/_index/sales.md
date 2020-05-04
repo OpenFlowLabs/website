@@ -10,5 +10,5 @@ title = "Partner with us for consulting, professional services, and training on:
 
 [[buttons]]
     text = "CONTACT SALES"
-    url = "mailto:till.wegmueller@openflowlabs.com"
+    url = "/contact"
 +++
