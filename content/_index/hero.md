@@ -28,6 +28,6 @@ subtitle = "Your Partner for Productive and Secure Cloud workloads"
   
 [[buttons]]
   text = "More"
-  url = "/details"
+  url = "applications/aurora-opencloud"
   color = "info"
 +++

@@ -6,3 +6,6 @@ weight = 20
     image = "freebsd-logo.svg"
     #url = "/aurora-opencloud"
 +++
+
+For maximal adaptability and performance
+Comming Soon

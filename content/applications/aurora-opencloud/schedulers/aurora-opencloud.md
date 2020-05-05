@@ -7,4 +7,4 @@ weight = 30
     #url = "/aurora-opencloud"
     size = "10"
 +++
-Want no scheduler? Use the Container engine itself.
+Want no scheduler? Use the Container engine itself. You decide where things run.
