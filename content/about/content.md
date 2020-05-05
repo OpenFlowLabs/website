@@ -1,9 +1,9 @@
 +++
 fragment = "content"
-date = "2017-10-05"
+date = "2020-04-01"
 weight = 100
 
 title = "About OpenFlowLabs GmbH"
 +++
 
-We at OpenFlowLabs 
+ 
