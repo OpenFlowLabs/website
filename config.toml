@@ -1,4 +1,4 @@
-baseURL = "openflowlabs.com"
+baseURL = "https://openflowlabs.github.io"
 DefaultContentLanguage = "en"
 title = "OpenFlowLabs"
 theme = "ofl"
