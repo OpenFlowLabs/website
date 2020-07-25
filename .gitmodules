@@ -1,7 +1,3 @@
-[submodule "themes/syna"]
-	path = themes/syna
-	url = https://github.com/okkur/syna.git
 [submodule "public"]
 	path = public
 	url = https://github.com/OpenFlowLabs/openflowlabs.github.io.git
-	branch = master
