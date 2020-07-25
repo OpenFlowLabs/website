@@ -12,6 +12,7 @@ theme = "ofl"
         languageCode = "en-us"
         languageName = "English"
         weight = 1
+        baseURL = "https://openflowlabs.com"
     [languages.en.menu]
         [[languages.en.menu.main]]
             url    = "/articles"
@@ -21,8 +22,9 @@ theme = "ofl"
         languageCode = "de-ch"
         languageName = "Deutsch"
         weight = 1
+        baseURL = "https://openflowlabs.ch"
         [languages.de.menu]
             [[languages.de.menu.main]]
-                url    = "/de/articles"
+                url    = "/articles"
                 name   = "Blog"
                 weight = 1
