@@ -1,20 +1,28 @@
-baseURL = "https://openflowlabs.github.io/"
-languageCode = "de-ch"
-title = "OpenFlowLabs GmbH"
-theme = "syna"
-name = "OpenFlowLabs"
-
-[minify]
-    disableSVG = true
+baseURL = "openflowlabs.com"
+DefaultContentLanguage = "en"
+title = "OpenFlowLabs"
+theme = "ofl"
 
 [params]
-    [params.colors]
-        danger = "#ff7149"
+    description = "OpenFlowLabs, we create the invisible technology that makes everything work."
+    linkedin = "https://www.linkedin.com/company/open-flow-labs/"
 
-  # Theme customizations
-  # Assets relative to 'static/'
-  [params.custom]
-    favicon = "images/logo-no-text-favicon.ico"
-    favicon_ico_sizes = "32x32"
-    favicon_png = "images/logo-no-text-favicon.png"
-    favicon_svg = "images/logo-no-text.svg"
+[languages]
+    [languages.en]
+        languageCode = "en-us"
+        languageName = "English"
+        weight = 1
+    [languages.en.menu]
+        [[languages.en.menu.main]]
+            url    = "/articles"
+            name   = "Articles"
+            weight = 1
+    [languages.de]
+        languageCode = "de-ch"
+        languageName = "Deutsch"
+        weight = 1
+        [languages.de.menu]
+            [[languages.de.menu.main]]
+                url    = "/de/articles"
+                name   = "Blog"
+                weight = 1

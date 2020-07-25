@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Chivo;
+    src: url(/fonts/Chivo-Regular.ttf);
+}
+@font-face {
+    font-family: Chivo;
+    src: url(/fonts/Chivo-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Chivo;
+    src: url(/fonts/Chivo-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Chivo-Black;
+    src: url(/fonts/Chivo-Black.ttf);
+}
+@font-face {
+    font-family: Chivo-Black;
+    src: url(/fonts/Chivo-BlackItalic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Chivo-Light;
+    src: url(/fonts/Chivo-Light.ttf);
+}
+@font-face {
+    font-family: Chivo-Light;
+    src: url(/fonts/Chivo-LightItalic.ttf);
+    font-style: italic;
+}
