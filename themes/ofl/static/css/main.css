@@ -296,8 +296,16 @@ footer > div {
         grid-template-columns: 10% 1fr 10%;
     }
 
-    #header-container > a {
+    #header-container > a > img {
         height: 30px;
+    }
+
+    #header-container > ul {
+        margin: 0;
+    }
+
+    #header-container > ul > li > a {
+        font-size: 22px;
     }
 
     .header-text {
@@ -389,7 +397,18 @@ footer > div {
     }
  }
 
-@media screen and (max-width: 400px){
+
+/* Phone */
+@media screen and (max-width: 400px) , only screen
+and (device-width : 414px)
+and (device-height : 896px)
+and (-webkit-device-pixel-ratio : 2), only screen
+and (device-width : 375px)
+and (device-height : 812px)
+and (-webkit-device-pixel-ratio : 3), only screen
+and (device-width : 414px)
+and (device-height : 896px)
+and (-webkit-device-pixel-ratio : 3){
     :root {
         --da-letter-spacing: 2px;
     }
