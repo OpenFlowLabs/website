@@ -1,6 +1,0 @@
-+++
-title = "About"
-date = "2017-10-05"
-#menu = "main"
-disable = true
-+++
