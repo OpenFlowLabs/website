@@ -1,5 +1,5 @@
 ---
-title: "index"
+title: "OpenFlowLabs"
 date: 2020-07-24T12:59:28+02:00
 draft: false
 description: "Planing, designing and creating the software technology that drives the world of tomorrow. If you would like to work with us, write us at: contact@openflowlabs.com"
