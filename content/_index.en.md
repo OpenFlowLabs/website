@@ -13,11 +13,11 @@ header:
     
 intro:
     title: "The Invisible"
-    text: "OpenFlowLabs is a software engineering company. We create the invisible technology that makes every action and data entry possible. Solutions for the most imperceptible interactions, the structure to support tech revolutions."
+    text: "OpenFlowLabs is a software engineering company who creates the invisible technology that makes every action and data entry possible. Solutions for the most imperceptible interactions and the structure to support tech revolutions."
     
 how:
-    - Design, plan and execution of software development work
-    - Applying the newest knowledge to secure the applications
+    - Design, planning and execution of software development work
+    - Applying the latest knowledge to secure the applications
     - Organising processes and workflows in and around the development work
     - Collaborating with stakeholders during and after the creative process
 
