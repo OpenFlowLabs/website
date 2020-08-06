@@ -2,6 +2,7 @@ baseURL = "https://openflowlabs.github.io"
 DefaultContentLanguage = "en"
 title = "OpenFlowLabs"
 theme = "ofl"
+googleAnalytics = "UA-174659490-1"
 
 [params]
     description = "OpenFlowLabs, we create the invisible technology that makes everything work."

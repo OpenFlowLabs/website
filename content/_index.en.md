@@ -4,6 +4,9 @@ date: 2020-07-24T12:59:28+02:00
 draft: false
 description: "Planing, designing and creating the software technology that drives the world of tomorrow. If you would like to work with us, write us at: contact@openflowlabs.com"
 
+images:
+    - preview/OFL-preview-image.png
+
 header:
     title: "We build the Foundation"
     text: "You don't see us – and you shouldn't have to. Across, beneath and above, we build the gears that move mountains at every click."
