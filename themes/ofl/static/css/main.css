@@ -203,7 +203,7 @@ header > img {
     grid-area: title;
     text-justify: inter-character;
     text-transform: uppercase;
-    font-size: 120px;
+    font-size: 131px;
     color: var(--dagreen);
     letter-spacing: var(--da-letter-spacing);
     transform: translate(-20%, -25%);

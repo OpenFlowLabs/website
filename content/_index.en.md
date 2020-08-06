@@ -2,7 +2,7 @@
 title: "index"
 date: 2020-07-24T12:59:28+02:00
 draft: false
-description: "Planing, designing and creating the software technology that drives tomorrow. If you would like to work with us, write us: contact@openflowlabs.com"
+description: "Planing, designing and creating the software technology that drives the world of tomorrow. If you would like to work with us, write us at: contact@openflowlabs.com"
 
 header:
     title: "We build the Foundation"
