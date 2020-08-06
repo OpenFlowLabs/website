@@ -32,8 +32,12 @@ offers:
       text: "We can show you some light at the end of the tunnel – we fix bugs, find tools, hire people, build technologies and create processes. All of that we can introduce to you while working with you on the project. In short consulting."
       
 partners:
-    - bloco
-    - fruitsteps
-    - be
-    - senno
+    - name: bloco
+      link: 
+    - name: fruitsteps
+      link: https://fruitsteps.com
+    - name: be
+      link: 
+    - name: senno
+      link: https://senno.ai
 ---
