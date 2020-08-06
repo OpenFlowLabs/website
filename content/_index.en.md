@@ -33,11 +33,11 @@ offers:
       
 partners:
     - name: bloco
-      link: 
+      link: https://www.blocolab.com/english
     - name: fruitsteps
       link: https://fruitsteps.com
     - name: be
-      link: 
+      link: https://www.blocolab.com/be-eng
     - name: senno
       link: https://senno.ai
 ---

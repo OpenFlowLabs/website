@@ -233,9 +233,12 @@ header > img {
     grid-auto-rows: 100px;
 }
 
-#partner-container > img {
+#partner-container > a {
     vertical-align: middle;
     margin: auto;
+}
+
+#partner-container > a > img {
     max-height: 100px;
 }
 
