@@ -2,7 +2,7 @@
 title: Hello "new" World
 date: 2020-08-07T09:06:47+02:00
 draft: false
-description: In times like these, things are emerging and changing including us. The future is coming, and we need to take some responsibility for it. Read more for some sneak peeks about our coming new products that enable you to do so.
+description: We have changed. Read more to get some sneak peeks of things coming down the pipeline.
 images: ["/preview/OFL-preview-image.png"]
 ---
 
