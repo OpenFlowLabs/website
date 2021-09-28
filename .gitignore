@@ -200,3 +200,5 @@ dist
 .pnp.*
 
 ### OpenFlowLabs website specific
+# Prefix for local files.
+.local.*
