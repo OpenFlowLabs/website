@@ -1,25 +1,27 @@
 {
-  "name": "openflow-website",
-  "version": "1.0.0",
-  "description": "OpenFLow Website",
-  "main": "index.js",
+  "name": "openflowlabs-website",
+  "version": "2.0.0",
+  "description": "OpenFlowLabs Website",
   "repository": {
     "type": "git",
     "url": "https://github.com//OpenFlowLabs/website.git"
   },
-  "author": "OpenFlow Labs",
+  "author": "OpenFlowLabs",
   "contributors": [
     {
       "name": "Riderman de Sousa Barbosa",
       "email": "ridermansb@gmail.com"
+    },
+    {
+      "name": "Christian Knuchel",
+      "email": "aziroshin@gmx.net"
     }
   ],
   "homepage": "https://www.openflowlabs.com/",
   "bugs": {
-    "email": "riderman@sphinx.net.br",
+    "email": "contact@openflowlabs.com",
     "url": "https://github.com/OpenFlowLabs/website/issues"
   },
-  "license": "ISC",
   "private": true,
   "scripts": {
     "build": "gatsby build",
@@ -27,54 +29,31 @@
     "dev": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\""
   },
-  "dependencies": {
-    "@stripe/react-stripe-js": "1.0.0-beta.3",
-    "@stripe/stripe-js": "1.0.0-beta.4",
-    "algoliasearch": "^4.2.0",
-    "apollo-datasource-graphql": "1.3.2",
-    "apollo-datasource-rest": "^0.6.9",
-    "apollo-server-lambda": "2.9.12",
-    "classnames": "^2.2.6",
-    "currency-formatter": "1.5.5",
-    "es6-promise": "4.2.8",
-    "gatsby": "2.18.12",
-    "gatsby-image": "^2.2.33",
-    "gatsby-plugin-algolia": "^0.9.0",
-    "gatsby-plugin-postcss": "2.1.13",
-    "gatsby-plugin-purgecss": "4.0.1",
-    "gatsby-plugin-react-helmet": "^3.1.18",
-    "gatsby-plugin-react-svg": "3.0.0",
-    "gatsby-plugin-sharp": "^2.3.3",
-    "gatsby-source-filesystem": "^2.1.42",
-    "gatsby-source-graphcms": "2.0.0-next.9",
-    "gatsby-source-printful": "1.2.0",
-    "gatsby-transformer-sharp": "^2.3.5",
-    "graphcms-image": "^1.1.0-beta4",
-    "graphql-hooks": "4.1.1",
-    "isomorphic-fetch": "2.2.1",
-    "md5": "^2.2.1",
-    "postmark": "2.3.4",
-    "query-string": "^6.9.0",
-    "react": "16.10.2",
-    "react-dom": "16.10.2",
-    "react-helmet": "^5.2.1",
-    "react-hook-form": "4.5.6",
-    "react-instantsearch-dom": "^6.4.0",
-    "react-toastify": "^5.4.1",
-    "react-use-cart": "1.2.2",
-    "stripe": "^7.14.0"
-  },
-  "devDependencies": {
-    "dotenv": "8.2.0",
-    "husky": "3.0.9",
-    "postcss-preset-env": "6.7.0",
-    "prettier": "1.18.2",
-    "pretty-quick": "2.0.0",
-    "tailwindcss": "1.1.2"
-  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
+  },
+  "dependencies": {
+    "autoprefixer": "^10.3.6",
+    "classnames": "^2.3.1",
+    "gatsby": "^3.14.0",
+    "gatsby-plugin-image": "^1.14.0",
+    "gatsby-plugin-postcss": "^4.14.0",
+    "gatsby-plugin-purgecss": "^6.0.2",
+    "gatsby-plugin-react-svg": "^3.0.1",
+    "gatsby-plugin-sharp": "^3.14.0",
+    "gatsby-source-filesystem": "^3.14.0",
+    "gatsby-transformer-sharp": "^3.14.0",
+    "postcss": "^8.3.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.2.16"
+  },
+  "devDependencies": {
+    "husky": "^7.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.4.1",
+    "pretty-quick": "^3.1.1"
   }
 }

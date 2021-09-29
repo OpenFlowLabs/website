@@ -3,17 +3,10 @@ const { fontFamily } = require('tailwindcss/defaultTheme');
 module.exports = {
   theme: {
     fontFamily: {
-      sans: ['Rubik', ...fontFamily.sans],
+      sans: ['sans-serif'],
     },
     extend: {
-      colors: {
-        black: '#121212',
-        primary: '#5828e8',
-        gainsboro: '#f5f5f5',
-        lightgray: '#888',
-        slategray: '#101b42',
-        red: '#DC143C',
-      },
+      colors: {},
       spacing: {
         96: '24rem',
       },
@@ -21,9 +14,6 @@ module.exports = {
         '-96': '-24rem',
       },
     },
-  },
-  variants: {
-    textColor: ['responsive', 'hover', 'focus', 'group-hover'],
   },
   plugins: [],
 };
