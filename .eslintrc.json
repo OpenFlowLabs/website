@@ -48,7 +48,7 @@
             }
         },
         {
-            "files": ["webpack.*.js", "babel*", "postcss*", "tailwind.config.js", "handlers.ts", "browser.ts"],
+            "files": ["webpack.*.js", "babel*", "postcss*", "tailwind.config.js", "gatsby*"],
             "env": {
                 "node": true
             },
