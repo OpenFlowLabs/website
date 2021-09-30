@@ -1,0 +1,65 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": ".",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noUnusedParameters": true,
+        "composite": true,
+        "noUnusedLocals": true,
+        //        "noUnusedParameters": true,
+        "disableSizeLimit": true,
+        "removeComments": true,
+        //        "preserveConstEnums": false,
+        // Ensure that Babel can safely transpile files in the TypeScript project
+        "isolatedModules": true,
+        "noImplicitAny": true,
+        "noEmit": true,
+        "noEmitOnError": true,
+        //        "emitDeclarationOnly": true,
+        //        "emitDecoratorMetadata": true,
+        "incremental": true,
+        "target": "es5",
+        // Due https://github.com/jquense/yup/blob/master/docs/typescript.md#typescript-settings
+        "strictNullChecks": true,
+        "strictFunctionTypes": false,
+        "typeRoots": ["./src/@types", "./node_modules/@types"],
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext",
+            "es5",
+            "es2015.promise"
+        ],
+        "allowJs": false,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "declaration": true,
+        "declarationMap": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "types": [
+            "node",
+            "react",
+            "react-dom"
+        ],
+        "include": [
+            "./packages/**/src/**/*",
+            "@types"
+        ],
+        "exclude": [
+            "node_modules/**/*",
+            "storybook-static",
+            "coverage/**/*",
+            "gtm",
+            "**/*.test.ts"
+        ]
+    }
+}
