@@ -1,16 +1,16 @@
 {{ define "main" }}
    <article class="main-container blog-index-page">
-       <header>
+       <!-- <header> -->
            <h1>/{{ .Title }}</h1>
-       </header>
+       <!-- </header> -->
        <div>
            {{ .Content }}
        </div>
    </article>
    <div class="main-container blog-index-page">
-       <header>
+       <!-- <header> -->
            <h1>/{{ .Params.Articles }}</h1>
-       </header>
+       <!-- </header> -->
        <div>
            <!-- Ranges through content/posts/*.md -->
            {{ range first 10 .Pages }}
