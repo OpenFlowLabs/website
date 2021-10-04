@@ -75,11 +75,19 @@ body {
 
 header {
     position: relative;
+    min-height: 10vh;
+    background: transparent;
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
 }
 
 header > img {
     display: block;
     width: 100%;
+    min-height: 10vh;
 }
 
 #header-container > a {
@@ -87,12 +95,14 @@ header > img {
 }
 
 #header-container {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 20%;
     display: grid;
     grid-template-areas: ". logo menu .";
     grid-template-columns: 20% auto 1fr 10%;
+    display: flex;
+    align-items: center;
 }
 
 #header-container > ul {
@@ -114,6 +124,8 @@ header > img {
 .homepage-image-container {
     position: relative;
     text-align: left;
+    min-height: 82vh;
+    background: center no-repeat url("../images/ofl_skyline_bottom.webp");
 }
 
 .move-up-one {
@@ -123,6 +135,7 @@ header > img {
 .homepage-image-container img {
     display: block;
     width: 100%;
+    min-height: 90vh;
 }
 
 #element2 {
@@ -134,7 +147,7 @@ header > img {
 
 .header-text {
     position: absolute;
-    bottom: 50%;
+    bottom: 25%;
     left: 50%;
     transform: translate(-50%);
     width: 20%;
@@ -289,6 +302,13 @@ footer > div {
     top: -200px;
 }
 
+/* IPad Pro */
+@media screen and (max-width: 1025px) and (min-height: 1365px) {
+    .homepage-image-container {
+        min-height: 48vh;
+    }
+}
+
 /* iPad */
 @media screen and (max-width: 768px) and (max-height: 1024px) {
     :root {
@@ -313,8 +333,8 @@ footer > div {
 
     .header-text {
         bottom: 45%;
-        left: 55%;
-        width: 80%;
+        left: 50%;
+        width: 40%!important;
     }
 
     #element2 {
@@ -334,6 +354,22 @@ footer > div {
 
     #intro-text > p {
         font-size: 18px;
+    }
+
+    .homepage-image-container {
+        min-height: 65vh;
+    }
+
+    .homepage-image-container.move-up-one {
+        height: 60vh;
+    }
+
+    #how-container {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        /* margin-top: -50px;
+        max-height: 250px; */
     }
 
     #how-text {
@@ -366,8 +402,6 @@ footer > div {
     footer > .structural-image {
         visibility: hidden;
     }
-
-
 }
 
 /* Laptops */
@@ -420,16 +454,36 @@ and (-webkit-device-pixel-ratio : 3){
         grid-template-columns: 5% 1fr 5%;
     }
 
+    header {
+        min-height: 10vh;
+        background: transparent;
+        position: absolute;
+        width: 100vw;
+        z-index: 1;
+    }
+
+    header > img {
+        min-height: 10vh;
+    }
+
     #header-container > a {
         visibility: hidden;
     }
 
+    #header-container > ul {
+        padding: 0;
+    }
+
     .header-text {
-        bottom: 0;
-        left: 5%;
+        left: 25%;
         width: auto;
         transform: none;
         font-size: small;
+        width: 40%;
+    }
+
+    .header-text > p {
+        margin: 0;
     }
 
     #element2 {
@@ -452,8 +506,18 @@ and (-webkit-device-pixel-ratio : 3){
         font-size: 18px;
     }
 
+    .homepage-image-container {
+        min-height: 82vh;
+    }
+
+    .homepage-image-container.move-up-one {
+        height: 60vh;
+    }
+
     #how-container {
-        display: initial;
+        display: flex;
+        position: relative;
+        flex-direction: column;
         margin-top: -50px;
         max-height: 250px;
     }
@@ -500,5 +564,33 @@ and (-webkit-device-pixel-ratio : 3){
 
     #contact-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+/* Pixel 2 */
+@media screen and (max-width: 412px) and (max-height: 824px) {
+    .homepage-image-container {
+        min-height: 82vh;
+    }
+}
+
+/* IPhone X */
+@media screen and (max-width: 415px) and (max-height: 737px) {
+    .homepage-image-container {
+        min-height: 90vh;
+    }
+}
+
+/* Surface Duo */
+@media screen and (max-width: 540px) and (max-height: 720px) {
+    .homepage-image-container {
+        min-height: 90vh;
+    }
+}
+
+/* Nest Hub */
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+    .homepage-image-container {
+        min-height: 90vh;
     }
 }
