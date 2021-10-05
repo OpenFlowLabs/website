@@ -17,10 +17,7 @@
         const headerStyle = document.getElementById('main-header')
         const headerContainer = document.getElementById('header-container')
         const articlesHeader = document.getElementById('articles-header')
-        if (window.location.pathname === '/articles/') {
-            console.log(window.location.pathname)
-            // headerStyle = "realative"
-            console.log(headerStyle.style.position)
+        if (window.location.pathname.startsWith('/articles/')) {
             headerStyle.style.position = 'relative'
             headerContainer.style.position = 'absolute'
             articlesHeader.style.display = 'block'

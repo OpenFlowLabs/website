@@ -25,6 +25,11 @@
     font-weight: bold;
 }
 
+.article-container {
+    margin-left: 40px;
+    padding: 20px;
+}
+
 .article-container > div > h1 {
     color: var(--dagreen);
 }
@@ -169,9 +174,9 @@ header > img {
 
 #intro-text {
     position: absolute;
-    top: 190px;
-    left: 500px;
-    width: 780px;
+    top: 20%;
+    left: 23%;
+    width: 60%;
 }
 
 #intro-text h1 {
@@ -196,6 +201,7 @@ header > img {
 }
 
 .main-container {
+    /* margin-left: 40px; */
     /* padding: 20px; */
     /* display: grid;
     grid-template-areas: ". main .";
@@ -207,18 +213,21 @@ header > img {
 }
 
 #how-container {
-    display: grid;
-    grid-template-areas: "text title";
-    grid-template-columns: 1fr 3fr;
-    max-height: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
 #how-text {
-    font-size: 12px;
-    line-height: 7px;
+    font-size: 14px;
+    line-height: 24px;
     grid-area: text;
-    width: 640px;
+    width: 680px;
     text-transform: uppercase;
+}
+
+#how-text > p {
+    margin-left: 16px;
 }
 
 #how-title {
@@ -246,7 +255,7 @@ header > img {
     text-transform: uppercase;
     color: var(--dagreen);
     letter-spacing: var(--da-letter-spacing);
-
+    margin-left: 60px;
 }
 
 #partner-container {
@@ -261,7 +270,7 @@ header > img {
 }
 
 #partner-container > a > img {
-    max-height: 100px;
+    max-height: 72px;
 }
 
 .da-green {
@@ -353,8 +362,8 @@ footer > div {
 
     #intro-text {
         top: 35%;
-        left: 10%;
-        width: 80%;
+        left: 20%;
+        width: 60%;
         padding-left: 20px;
     }
 
@@ -377,15 +386,17 @@ footer > div {
     #how-container {
         display: flex;
         position: relative;
-        flex-direction: column;
-        /* margin-top: -50px;
-        max-height: 250px; */
+        flex-direction: column-reverse;
     }
 
     #how-text {
         padding: 20px;
         width: auto;
-        min-width: 490px;
+        min-width: 300px;
+    }
+
+    #how-text > p {
+        min-width: 280px;
     }
 
     #how-title {
@@ -403,6 +414,10 @@ footer > div {
 
     #partner-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    #partners-title {
+        /* margin-left: 16px; */
     }
 
     #element {
@@ -429,13 +444,13 @@ footer > div {
 
      #intro-text {
          top: 20%;
-         left: 23%;
+         left: 20%;
          width: 60%;
      }
 
      #how-text {
          padding: 20px;
-         width: 500px;
+         width: 360px;
      }
 
     #how-title {
@@ -501,11 +516,12 @@ and (-webkit-device-pixel-ratio : 3){
     }
 
     #intro-text {
-        top: -50px;
-        left: 5%;
-        width: 90%;
+        /* top: -50px; */
+        top: 30%;
+        left: 22%;
+        width: 66%;
         padding-left: unset;
-        position: relative;
+        /* position: relative; */
     }
 
     #intro-text > h1 {
@@ -527,9 +543,10 @@ and (-webkit-device-pixel-ratio : 3){
     #how-container {
         display: flex;
         position: relative;
-        flex-direction: column;
-        margin-top: -50px;
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
         max-height: 250px;
+        margin-left: 40px;
     }
 
     #how-text {
@@ -541,7 +558,7 @@ and (-webkit-device-pixel-ratio : 3){
     }
 
     #how-text > p {
-        width: 330px;
+        width: 280px;
     }
 
     #how-title {
@@ -556,10 +573,20 @@ and (-webkit-device-pixel-ratio : 3){
 
     .offer-div {
         padding: 5px 0 5px 0;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
     #partner-container {
         grid-template-columns: 1fr;
+    }
+
+    #partners-title > h1 {
+        margin-left: 40px;
+    }
+
+    #partners-title {
+        margin-left: 16px;
     }
 
     #element {
