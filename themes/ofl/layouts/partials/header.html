@@ -1,9 +1,9 @@
 <header>
     <!-- <img src="/images/ofl_skyline_top.webp" alt="header"> -->
     <nav class="navbar navbar-light bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}"><img src="/images/ofl_logo.png" alt="logo"></a>
-            <ul>
+        <div class="nav-wrapper">
+            <a class="brand-logo" href="{{ .Site.Home.RelPermalink }}"><img src="/images/ofl_logo.png" alt="logo"></a>
+            <ul class="right hide-on-med-and-down">
                 {{ range .Site.Menus.main}}
                     <li>
                         <a class="navbar-brand" href="{{ .URL }}">
