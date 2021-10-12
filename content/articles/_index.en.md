@@ -1,5 +1,5 @@
 ---
-title: "The Company Blog of OpenFlowLabs"
+title: "OpenFlowLabs Company Blog"
 date: 2020-07-24T12:59:28+02:00
 draft: false
 

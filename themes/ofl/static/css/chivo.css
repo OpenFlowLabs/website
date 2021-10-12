@@ -1,11 +1,11 @@
 @font-face {
     font-family: Chivo;
-    src: url(/fonts/Chivo-Regular.ttf);
+    src: url("https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap");
     font-display: swap;
 }
 @font-face {
     font-family: Chivo;
-    src: url(/fonts/Chivo-Bold.ttf);
+    src: url("https://fonts.googleapis.com/css2?family=Chivo:wght@700&display=swap");
     font-weight: bold;
     font-display: swap;
 }
@@ -27,7 +27,6 @@
     font-style: italic;
     font-display: swap;
 }
-
 @font-face {
     font-family: Chivo-Light;
     src: url(/fonts/Chivo-Light.ttf);

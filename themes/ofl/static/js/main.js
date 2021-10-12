@@ -14,7 +14,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Add Icons to offers elements
 
-document.getElementById('Think').innerText = 'lightbulb_outline'
-document.getElementById('Engineer').innerText = 'developer_board'
-document.getElementById('Hire').innerText = 'assignment_ind'
-document.getElementById('Consult').innerText = 'explore'
+if (window.location.pathname === '/') {
+    document.getElementById('Think').innerText = 'lightbulb_outline'
+    document.getElementById('Engineer').innerText = 'developer_board'
+    document.getElementById('Hire').innerText = 'assignment_ind'
+    document.getElementById('Consult').innerText = 'explore'
+}

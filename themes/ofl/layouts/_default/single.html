@@ -1,15 +1,13 @@
 {{ define "main"}}
-    <div class="main-container article-container">
-        <div>
-            <h1>/{{ .Title }}</h1>
-            <h6>{{ .Date.Format "Mon, Jan 2, 2006" }}</h6>
-            {{ .Content }}
-            <h5 class="translations-title">/{{ i18n "translations" }}</h5>
-            <ul class="translations-list">
-                {{ range .Translations }}
-                    <li><a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a></li>
-                {{ end }}
-            </ul>
-        </div>
-    </div>
+    <article class="single-article">
+        <h1><span class="paragraph-slash">/</span>{{ .Title }}</h1>
+        <span>{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+        {{ .Content }}
+        <h2 class="translations-title"><span class="paragraph-slash">/</span>{{ i18n "translations" }}</h2>
+        <ul class="translations-list">
+            {{ range .Translations }}
+                <li><a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a></li>
+            {{ end }}
+        </ul>
+    </article>
 {{ end }}

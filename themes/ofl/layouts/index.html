@@ -60,7 +60,7 @@
                 <div class="col s12 m6 l3">
                     <a href="{{ .link }}">
                         <div class="card">
-                            <div class="card-images waves-effect waves-block waves-light">
+                            <div class="card-image waves-effect waves-purple" style="display: flex;">
                                 <img src="/images/logos/{{ .name }}.png" alt="{{ .name }}" width="180px" height="80px"/>
                             </div>
                         </div>
@@ -72,7 +72,7 @@
 
     <div class="fixed-action-btn">
         {{ range .Site.Menus.main}}
-            <a class="btn tooltipped btn-floating btn-large deep-purple darken-4" data-position="top" data-tooltip="Articles" href="{{ .URL }}">
+            <a class="btn tooltipped btn-floating btn-large waves-effect waves-purple deep-purple darken-4" data-position="top" data-tooltip="Articles" href="{{ .URL }}">
                 <i class="large material-icons">filter_2</i>
             </a>
         {{ end }}
