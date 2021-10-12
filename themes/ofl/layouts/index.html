@@ -1,54 +1,80 @@
 {{ define "main" }}
-    <div class="homepage-image-container">
-        <div class="parallax-container">
-            <div class="parallax"><img src="/images/oflabs-hero.jpg" alt="parallax"></div>
+    <section class="home-page-hero-section">
+        <div class="parallax-container parallax-hero">
+            <div class="parallax"><img src="/images/oflabs-hero-light.jpg" alt="parallax"></div>
         </div>
-        <!-- <img id="skyline" class="structural-image" src="/images/ofl_skyline_bottom.webp" alt="skyline">
-        <img id="element2" src="/images/ofl_element2.png" alt="element2"> -->
-        <div class="header-text">
-            <h1>/ {{.Params.Header.Title}}</h1>
+        <article class="hero-text">
+            <h1><span class="paragraph-slash">/</span>{{.Params.Header.Title}}</h1>
             <p>{{.Params.Header.Text}}</p>
-        </div>
-    </div>
-    <div class="homepage-image-container move-up-one">
-        <!-- <img class="structural-image" src="/images/ofl_base.webp" alt="base_image"> -->
-        <div id="intro-text">
-            <h1>/ {{.Params.Intro.Title}}</h1>
+        </article>
+    </section>
+
+    <section class="homepage-image-container move-up-one">
+        <article class="intro-text">
+            <h1><span class="paragraph-slash">/</span>{{.Params.Intro.Title}}</h1>
             <p>{{.Params.Intro.Text}}</p>
-        </div>
-    </div>
-    <div class="main-container">
-        <div id="how-container">
-            <div id="how-text">
+        </article>
+    </section>
+
+    <section class="parallax-container parallax-invisible">
+        <div class="parallax"><img src="/images/oflabs-hero-dark.jpg" alt="parallax"></div>
+    </section>
+
+    <section class="how-section">
+        <article class="how-text">
+            <div class="how-title">
+                <h1><span class="paragraph-slash">/</span>How</h1>
+            </div>
+            <ul class="how-container">
                 {{ range .Params.How }}
-                <p>{{ . }}</p>
+                    <li>
+                        <p>{{ . }}</p>
+                    </li>
                 {{ end }}
-            </div>
-            <div id="how-title">
-                <p>/How</p>
-            </div>
-        </div>
-    </div>
-    <div class="main-container">
-        <div id="offers-container">
+                </ul>
+            </article>
+    </section>
+
+    <section class="offers-section"> 
+        <ul class="row offers-container">
             {{ range .Params.Offers }}
-                <div class="offer-div">
-                    <h2>/{{ .title }}</h2>
+                <li class="col s12 m6 l6">
+                    <h2><span class="paragraph-slash">/</span>{{ .title }}</h2>
                     <p>{{ .text }}</p>
+                    <i class="material-icons" id="{{ .title }}" style="zoom: 6; color: #311b92;"></i>
+                </li>
+            {{ end }}
+        </ul>
+    </section>
+
+    <section class="parallax-container parallax-openflows">
+        <div class="parallax"><img class="openflows-image" src="/images/oflabs-hero.jpg" alt="parallax"></div>
+    </section>
+
+    <section class="partners-section">
+        <div class="partners-title">
+            <h2><span class="paragraph-slash">/</span>Partners</h2>
+        </div>
+        <div class="row partners-container">
+            {{ range .Params.Partners }}
+                <div class="col s12 m6 l3">
+                    <a href="{{ .link }}">
+                        <div class="card">
+                            <div class="card-images waves-effect waves-block waves-light">
+                                <img src="/images/logos/{{ .name }}.png" alt="{{ .name }}" width="180px" height="80px"/>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             {{ end }}
         </div>
-    </div>
-    <div class="main-container">
-        <div>
-            <div id="partners-title">
-                <h1>/Partners</h1>
-            </div>
-            <div id="partner-container">
-                {{ range .Params.Partners }}
-                    <a href="{{ .link }}"><img src="/images/logos/{{ .name }}.png" alt="{{ .name }}"/></a>
-                {{ end }}
-            </div>
-        </div>
+    </section>
+
+    <div class="fixed-action-btn">
+        {{ range .Site.Menus.main}}
+            <a class="btn tooltipped btn-floating btn-large deep-purple darken-4" data-position="top" data-tooltip="Articles" href="{{ .URL }}">
+                <i class="large material-icons">filter_2</i>
+            </a>
+        {{ end }}
     </div>
 {{ end }}

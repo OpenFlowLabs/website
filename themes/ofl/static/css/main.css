@@ -1,5 +1,69 @@
+.paragraph-slash {
+    color: #311b92;
+}
+
 .parallax-container {
     position: relative;
     overflow: hidden;
     height: 90vh;
+}
+
+.hero-text, .intro-text, .how-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.hero-text h1, .intro-text h1, .how-text h1 {
+    max-width: 400px;
+}
+.hero-text p, .intro-text p, .how-text p {
+    max-width: 400px;
+}
+
+.parallax-invisible {
+    height: 50vh;
+}
+
+.parallax-openflows .parallax img {
+    left: 55%;
+    bottom: 50%;
+}
+
+.offers-section > ul > li.col {
+    padding: 10% 5% 0 5%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+li.col p {
+    text-align: center;
+}
+
+.partners-title {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    transition: 0.4s ease-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card .card-images {
+    display: flex;
+    justify-content: center;
+}
+
+.page-footer {
+    color: inherit;
+}
+
+.oflabs-footer-image {
+    max-width: 100vw;
 }

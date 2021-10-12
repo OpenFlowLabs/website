@@ -1,14 +1,15 @@
 <header>
-    <!-- <img src="/images/ofl_skyline_top.webp" alt="header"> -->
-    <nav class="navbar navbar-light bg-dark">
+    <nav class="navbar deep-purple darken-4" style="min-height: 10vh;">
         <div class="nav-wrapper">
-            <a class="brand-logo" href="{{ .Site.Home.RelPermalink }}"><img src="/images/ofl_logo.png" alt="logo"></a>
+            <a class="brand-logo" style="padding: 8px;" href="{{ .Site.Home.RelPermalink }}">
+                <img src="/images/oflabs-logo-white.png" alt="openflowlabs-logo" style="height: 40px;">
+            </a>
             <ul class="right hide-on-med-and-down">
                 {{ range .Site.Menus.main}}
                     <li>
                         <a class="navbar-brand" href="{{ .URL }}">
                             {{ .Pre }}
-                            <span>{{ .Name }}</span>
+                            <span style="font-size: 2rem;">{{ .Name }}</span>
                         </a>
                     </li>
                 {{ end }}

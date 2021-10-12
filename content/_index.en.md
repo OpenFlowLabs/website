@@ -9,7 +9,7 @@ images:
 
 header:
     title: "We build the Foundation"
-    text: "You don't see us – and you shouldn't have to. Across, beneath and above, we build the gears that move mountains at every click."
+    text: "You don't see us – and you shouldn't have to. Across, beneath and above, OpenFlowLabs build the gears that move mountains at every click."
     
 intro:
     title: "The Invisible"
@@ -17,19 +17,19 @@ intro:
     
 how:
     - Design, planning and execution of software development work
-    - Applying the latest knowledge to secure the applications
+    - Applying the latest knowledge to secure the applications and its content
     - Organising processes and workflows in and around the development work
     - Collaborating with stakeholders during and after the creative process
 
 offers:
     - title: "Think"
-      text: "Together, we help to transform ideas into real products and services. With our partners, throughout the world, we design the technology of products, apps and services that make real change in the world."
+      text: "Here at OpenFlowLabs, we help to transform ideas into real products and services. With our partners, throughout the world, OpenFlowLabs design the technology of products, apps and services that make real change in the world."
     - title: "Engineer"
-      text: "We design, plan, develop code, manage the project and collaborations and find the perfect tools to build the technology needed for the project. In more simple words, we take care of it."
+      text: "OpenFlowLabs design, plan, develop code, manage the project and collaborations and find the perfect tools to build the technology needed for the project. In more simple words, we take care of it."
     - title: "Hire"
-      text: "We understand the crucial importance of building the right team. We find and harvest the ideal knowledge to build long and fruitful relationships."
+      text: "We understand the crucial importance of building the right team. OpenFlowLabs find and harvest the ideal knowledge to build long and fruitful relationships. OpenFlowLabs lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
     - title: "Consult"
-      text: "We can show you some light at the end of the tunnel – we fix bugs, find tools, hire people, build technologies and create processes. All of that we can introduce to you while working with you on the project. In short consulting."
+      text: "OpenFlowLabs can show you some light at the end of the tunnel – we fix bugs, find tools, hire people, build technologies and create processes. All of that OpenFlowLabs can introduce to you while working with you on the project. In short consulting."
       
 partners:
     - name: bloco
