@@ -5,9 +5,9 @@
 html,
 body,
 #___gatsby {
-  @apply h-full;
+    @apply h-full;
 }
 
 html {
-  @apply bg-white font-sans antialiased leading-normal;
+    @apply font-chivo antialiased leading-normal;
 }
