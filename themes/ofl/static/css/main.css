@@ -1,3 +1,5 @@
+/* Begin Global CSS */
+
 a {
     color: #311b92;
 }
@@ -6,8 +8,11 @@ nav {
     background-image: url('/images/banner_background.png');
 }
 
-/* Begin Home Page CSS */
+/* End Global CSS */
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Begin Home Page CSS */
 
 .waves-effect.waves-gradient-purple .waves-ripple {
     background-color: rgba(121,1,236,1);
@@ -36,7 +41,6 @@ nav {
 .parallax-container {
     position: relative;
     overflow: hidden;
-    /* height: 90vh; */
 }
 
 .home-page-hero-section {
@@ -53,7 +57,6 @@ nav {
     flex-direction: column;
     align-items: center;
     background: linear-gradient(149deg, rgba(121,1,236,1) 0%, rgba(2,185,158,1) 86%, rgba(3,202,125,1) 100%);
-    /* max-width: 300px; */
 }
 
 .intro-text, .how-text {
@@ -68,6 +71,19 @@ nav {
 }
 .hero-text p, .intro-text p, .how-text p {
     max-width: 400px;
+}
+
+.intro-text h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: .5rem;
+    color: #78AD2D;
+}
+
+.intro-text p {
+    font-weight: 500;
+    font-size: 1.250rem;
 }
 
 .parallax-invisible {
