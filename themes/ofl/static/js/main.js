@@ -1,9 +1,9 @@
 // Starts Parallaxes
 
-document.addEventListener('DOMContentLoaded', function() {
-    var parallaxeElems = document.querySelectorAll('.parallax');
-    var parallaxesInstances = M.Parallax.init(parallaxeElems, {});
-});
+// document.addEventListener('DOMContentLoaded', function() {
+//     var parallaxesElems = document.querySelectorAll('.parallax');
+//     var parallaxesInstances = M.Parallax.init(parallaxesElems, {});
+// });
 
 // Starts Tooltips
 

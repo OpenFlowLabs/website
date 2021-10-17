@@ -1,13 +1,13 @@
 <header>
     <nav class="navbar deep-purple darken-4" style="min-height: 10vh;">
-        <div class="nav-wrapper">
-            <a class="brand-logo" style="padding: 8px;" href="{{ .Site.Home.RelPermalink }}">
-                <img src="/images/oflabs-logo-white.png" alt="openflowlabs-logo" style="height: 40px;">
+        <div class="nav-wrapper" style="display: flex; justify-content: space-evenly;">
+            <a class="brand-logo waves-effect waves-gradient-purple" style="position: relative; display: flex; align-items: center;" href="{{ .Site.Home.RelPermalink }}">
+                <img src="/images/ofl_logo.png" alt="openflowlabs-logo" style="height: 40px;">
             </a>
             <ul class="right hide-on-med-and-down">
                 {{ range .Site.Menus.main}}
                     <li>
-                        <a class="navbar-brand waves-effect waves-purple" href="{{ .URL }}">
+                        <a class="navbar-brand waves-effect waves-gradient-purple" href="{{ .URL }}">
                             {{ .Pre }}
                             <span style="font-size: 2rem;">{{ .Name }}</span>
                         </a>

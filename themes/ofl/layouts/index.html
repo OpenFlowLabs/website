@@ -1,11 +1,18 @@
 {{ define "main" }}
     <section class="home-page-hero-section">
-        <div class="parallax-container parallax-hero">
-            <div class="parallax"><img src="/images/oflabs-hero-light.jpg" alt="parallax"></div>
+        <div class="parallax-hero" style="position: absolute; width: 100vw;">
+            <div style="display: flex; align-items: flex-end; height: 60vh; width: 100vw;">
+                <img src="/images/banner_background.png" alt="parallax" class="hero-banner-background">
+
+                <img src="/images/banner_landscape.png" alt="parallax" class="hero-banner-landscape">
+            </div>
         </div>
         <article class="hero-text">
-            <h1><span class="paragraph-slash">/</span>{{.Params.Header.Title}}</h1>
-            <p>{{.Params.Header.Text}}</p>
+            <h1 style="font-size: 2rem; text-transform: uppercase; font-weight: 600; color: white; max-width: 280px; letter-spacing: 0.5rem;">
+                <span>/</span>
+                {{.Params.Header.Title}}
+            </h1>
+            <p style="color: white; padding-bottom: 20vh; max-width: 280px;">{{.Params.Header.Text}}</p>
         </article>
     </section>
 

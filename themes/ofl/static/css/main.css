@@ -2,7 +2,28 @@ a {
     color: #311b92;
 }
 
+nav {
+    background-image: url('/images/banner_background.png');
+}
+
 /* Begin Home Page CSS */
+
+
+.waves-effect.waves-gradient-purple .waves-ripple {
+    background-color: rgba(121,1,236,1);
+}
+
+.hero-banner-background {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    min-height: 625px;
+}
+
+.hero-banner-landscape {
+    height: 30vh;
+    width: 100vw;
+}
 
 .material-tooltip {
    background-color: #7e57c2;
@@ -15,10 +36,27 @@ a {
 .parallax-container {
     position: relative;
     overflow: hidden;
-    height: 90vh;
+    /* height: 90vh; */
 }
 
-.hero-text, .intro-text, .how-text {
+.home-page-hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 50vh;
+}
+
+.hero-text {
+    margin-top: 80px;
+    min-width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(149deg, rgba(121,1,236,1) 0%, rgba(2,185,158,1) 86%, rgba(3,202,125,1) 100%);
+    /* max-width: 300px; */
+}
+
+.intro-text, .how-text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,12 +121,25 @@ li.col p {
 }
 
 @media only screen and (max-width: 1024px) {
+    .hero-banner-background {
+        min-height: 82vh;
+    }
+    .hero-text {
+        margin-top: 80px;
+        min-width: 280px;
+    }
+    .hero-text h1, .hero-text p {
+        max-width: 260px !important;
+    }
     .mail-to-contact {
         font-size: 1.25rem;
     }
 }
 
 @media only screen and (max-height: 601px) {
+    .hero-text {
+        min-width: none;
+    }
     .mail-to-contact {
         font-size: 1.25rem;
     }
@@ -105,6 +156,10 @@ li.col p {
 }
 
 @media only screen and (max-width: 792px) {
+    .hero-banner-landscape {
+        height: 20vh;
+        width: 100vw;
+    }
     .blog-section h1 {
         font-size: 2.5rem;
     }
