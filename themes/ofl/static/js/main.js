@@ -1,10 +1,3 @@
-// Starts Parallaxes
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     var parallaxesElems = document.querySelectorAll('.parallax');
-//     var parallaxesInstances = M.Parallax.init(parallaxesElems, {});
-// });
-
 // Starts Tooltips
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -20,3 +13,16 @@ if (window.location.pathname === '/') {
     document.getElementById('Hire').innerText = 'assignment_ind'
     document.getElementById('Consult').innerText = 'explore'
 }
+
+// Floating Action Button toggles on vertical scrolling
+
+document.addEventListener('scroll', function(e) {
+    const lastKnownScrollPosition = window.scrollY;
+    const fixedActionBtn = document.querySelector('.fixed-action-btn')
+
+    if (lastKnownScrollPosition > 300) {
+      fixedActionBtn.style.display = 'block'
+    } else {
+        fixedActionBtn.style.display = 'none'
+    }
+});

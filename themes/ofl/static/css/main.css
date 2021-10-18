@@ -11,11 +11,19 @@ nav {
 /* End Global CSS */
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Begin Home Page CSS */
 
 .waves-effect.waves-gradient-purple .waves-ripple {
     background-color: rgba(121,1,236,1);
+}
+
+.waves-effect.waves-gradient-green .waves-ripple {
+    background-color: rgba(3,202,125,1);
 }
 
 .hero-banner-background {
@@ -65,11 +73,27 @@ nav {
 }
 
 .intro-text h1, .how-text h1, li > h2, li.col.s12.m6.l6 h2, .partners-title h2 {
+    padding: 1rem;
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: 600;
     letter-spacing: .5rem;
     color: #78AD2D;
+}
+
+.container .row h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: .5rem;
+    color: #78AD2D;
+}
+
+.lets-talk-text {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .5rem;
 }
 
 .intro-text p {
@@ -80,7 +104,7 @@ nav {
 .offers-section > ul > li.col {
     padding: 10% 5% 0 5%;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -108,6 +132,24 @@ li.col p {
 
 .page-footer {
     color: inherit;
+    background-color: transparent;
+}
+
+.page-footer .container {
+    padding-top: 10vh;
+}
+
+.page-footer .container .row {
+    width: inherit;
+    background-color: transparent;
+}
+
+.page-footer .container .row h3 {
+    font-size: 1.5rem;
+}
+
+.page-footer .container .row h4 {
+    font-size: 1.25rem;
 }
 
 .oflabs-footer-image {
@@ -115,22 +157,54 @@ li.col p {
 }
 
 .mail-to-contact {
-    color: #039be5;
+    color: #78AD2D;
+}
+
+.footer-image-top {
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+.footer-image-bottom {
+    width: 100vw;
+    display: none;
+}
+
+.fixed-action-btn {
+    /* display: none; */
+}
+
+.fixed-action-btn a {
+    background-color: #78AD2D;
 }
 
 @media only screen and (max-width: 1024px) {
     .hero-banner-background {
         min-height: 82vh;
     }
+
     .hero-text {
         margin-top: 80px;
         min-width: 280px;
     }
+
     .hero-text h1, .hero-text p {
         max-width: 260px !important;
     }
+
     .mail-to-contact {
         font-size: 1.25rem;
+    }
+
+    .footer-image-top {
+        width: 100vw;
+        display: none;
+    }
+
+    .footer-image-bottom {
+        width: 100vw;
+        display: block;
     }
 }
 
@@ -152,6 +226,10 @@ li.col p {
 
 /* End Home Page CSS */
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Begin Articles Page CSS */

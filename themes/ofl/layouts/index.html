@@ -1,12 +1,12 @@
 {{ define "main" }}
     <section class="home-page-hero-section">
-        <div class="parallax-hero" style="position: absolute; width: 100vw;">
+        <div style="position: absolute; width: 100vw;">
             <div style="display: flex; align-items: flex-end; height: 60vh; width: 100vw;">
-                <img src="/images/banner_background.png" alt="parallax" class="hero-banner-background">
-
-                <img src="/images/banner_landscape.png" alt="parallax" class="hero-banner-landscape">
+                <img src="/images/banner_background.png" alt="hero-banner-background" class="hero-banner-background">
+                <img src="/images/banner_landscape.png" alt="hero-banner-landscape" class="hero-banner-landscape">
             </div>
         </div>
+    
         <article class="hero-text">
             <h1 style="font-size: 2rem; text-transform: uppercase; font-weight: 600; color: white; max-width: 280px; letter-spacing: 0.5rem;">
                 <span>/</span>
@@ -17,7 +17,8 @@
     </section>
 
     <section class="homepage-image-container move-up-one">
-        <img src="/images/ofl_base.jpg" alt="parallax" style="max-width: 100vw; position: absolute; z-index: -1;">
+        <img src="/images/ofl_base.jpg" alt="hero-banner-base" style="max-width: 100vw; position: absolute; z-index: -1;">
+
         <article class="intro-text">
             <h1><span>/</span>{{.Params.Intro.Title}}</h1>
             <p>{{.Params.Intro.Text}}</p>
@@ -29,6 +30,7 @@
             <div class="how-title">
                 <h1><span>/</span>How</h1>
             </div>
+
             <ul class="how-container">
                 {{ range .Params.How }}
                     <li>
@@ -55,6 +57,7 @@
         <div class="partners-title">
             <h2><span>/</span>Partners</h2>
         </div>
+
         <div class="row partners-container">
             {{ range .Params.Partners }}
                 <div class="col s12 m6 l3">
@@ -70,9 +73,14 @@
         </div>
     </section>
 
-    <div class="fixed-action-btn">
+    <div class="fixed-action-btn" style="color: white">
         {{ range .Site.Menus.main}}
-            <a class="btn tooltipped btn-floating btn-large waves-effect waves-purple deep-purple darken-4" data-position="top" data-tooltip="Articles" href="{{ .URL }}">
+            <a
+                href="{{ .URL }}"
+                data-position="top"
+                data-tooltip="Articles"
+                class="btn tooltipped btn-floating btn-large waves-effect waves-gradient-green"
+            >
                 <i class="large material-icons">filter_2</i>
             </a>
         {{ end }}
