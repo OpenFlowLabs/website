@@ -20,7 +20,7 @@ document.addEventListener('scroll', function(e) {
     const lastKnownScrollPosition = window.scrollY;
     const fixedActionBtn = document.querySelector('.fixed-action-btn')
 
-    if (lastKnownScrollPosition > 300) {
+    if (lastKnownScrollPosition > 300 && lastKnownScrollPosition !== 0) {
       fixedActionBtn.style.display = 'block'
     } else {
         fixedActionBtn.style.display = 'none'

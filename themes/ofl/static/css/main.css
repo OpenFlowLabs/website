@@ -172,7 +172,7 @@ li.col p {
 }
 
 .fixed-action-btn {
-    /* display: none; */
+    display: none;
 }
 
 .fixed-action-btn a {

@@ -20,4 +20,17 @@
             {{ end }}
         </ul>
    </section>
+
+   <div class="fixed-action-btn" style="color: white">
+        {{ range .Site.Menus.main}}
+            <a
+                href="{{ .URL }}"
+                data-position="top"
+                data-tooltip="Articles"
+                class="btn tooltipped btn-floating btn-large waves-effect waves-gradient-green"
+            >
+                <i class="large material-icons">filter_2</i>
+            </a>
+        {{ end }}
+    </div>
 {{ end }}
