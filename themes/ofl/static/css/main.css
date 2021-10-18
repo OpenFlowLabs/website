@@ -31,16 +31,7 @@ nav {
 }
 
 .material-tooltip {
-   background-color: #7e57c2;
-}
-
-.paragraph-slash {
-    color: #311b92;
-}
-
-.parallax-container {
-    position: relative;
-    overflow: hidden;
+   background-color: #78AD2D;
 }
 
 .home-page-hero-section {
@@ -73,7 +64,7 @@ nav {
     max-width: 400px;
 }
 
-.intro-text h1 {
+.intro-text h1, .how-text h1, li > h2, li.col.s12.m6.l6 h2, .partners-title h2 {
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: 600;
@@ -84,15 +75,6 @@ nav {
 .intro-text p {
     font-weight: 500;
     font-size: 1.250rem;
-}
-
-.parallax-invisible {
-    height: 50vh;
-}
-
-.parallax-openflows .parallax img {
-    left: 55%;
-    bottom: 50%;
 }
 
 .offers-section > ul > li.col {
@@ -158,6 +140,13 @@ li.col p {
     }
     .mail-to-contact {
         font-size: 1.25rem;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .how-text {
+        flex-direction: row-reverse;
+        justify-content: center;
     }
 }
 

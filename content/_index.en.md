@@ -27,7 +27,7 @@ offers:
     - title: "Engineer"
       text: "OpenFlowLabs design, plan, develop code, manage the project and collaborations and find the perfect tools to build the technology needed for the project. In more simple words, we take care of it."
     - title: "Hire"
-      text: "We understand the crucial importance of building the right team. OpenFlowLabs find and harvest the ideal knowledge to build long and fruitful relationships. OpenFlowLabs lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+      text: "We understand the crucial importance of building the right team. OpenFlowLabs find and harvest the ideal knowledge to build long and fruitful relationships. OpenFlowLabs lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
     - title: "Consult"
       text: "OpenFlowLabs can show you some light at the end of the tunnel – we fix bugs, find tools, hire people, build technologies and create processes. All of that OpenFlowLabs can introduce to you while working with you on the project. In short consulting."
       
