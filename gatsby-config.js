@@ -36,5 +36,18 @@ module.exports = {
                 path: path.join(__dirname, `src`, `images`),
             },
         },
+        {
+            resolve: `gatsby-plugin-mdx`,
+            options: {
+                extensions: [`.mdx`, `.md`],
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `posts`,
+                path: `${__dirname}/src/posts`,
+            },
+        },
     ],
 };
