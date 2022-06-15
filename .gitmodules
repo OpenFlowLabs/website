@@ -1,4 +1,4 @@
 [submodule "public"]
 	path = public
-	url = https://github.com/OpenFlowLabs/openflowlabs.github.io.git
+	url = git@github.com:OpenFlowLabs/openflowlabs.github.io.git
     branch = master
