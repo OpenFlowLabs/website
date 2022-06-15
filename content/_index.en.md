@@ -38,6 +38,4 @@ partners:
       link: https://fruitsteps.com
     - name: be
       link: https://www.blocolab.com/be-eng
-    - name: senno
-      link: https://senno.ai
 ---
