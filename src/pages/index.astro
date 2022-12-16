@@ -2,7 +2,7 @@
 import BaseHead from '$components/BaseHead.astro';
 import Header from '$components/Header.astro';
 import Footer from '$components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '$config';
+import Link from '$components/Link.astro';
 import ghIcon from '$fontawesome/svgs/brands/github.svg';
 import linkedinIcon from '$fontawesome/svgs/brands/linkedin.svg';
 import twitterIcon from '$fontawesome/svgs/brands/twitter.svg';
@@ -11,8 +11,11 @@ import processTrainingIcon from '$fontawesome/svgs/solid/dumbbell.svg';
 import devOpsTeamBuildingIcon from '$fontawesome/svgs/solid/users-gear.svg';
 import Map from '$components/Map.svelte';
 import 'leaflet/dist/leaflet.css';
+import {SITE_DESCRIPTION} from '$config';
 
 const location = { latitude: 46.9629963, longitude: 7.4496333 };
+
+const SITE_TITLE = 'index';
 ---
 
 <!DOCTYPE html>
@@ -23,13 +26,12 @@ const location = { latitude: 46.9629963, longitude: 7.4496333 };
 	<body>
 		<Header title={SITE_TITLE} />
 		<div class="grid grid-cols-2 gap-4 w-full pl-20">
-			<div class="w-4/6">
-				<h1 class="text-6xl my-10">Development deciphered and painless</h1>
+			<div>
+				<h1 class="text-6xl my-10">Build an environment people want to work in and they will work</h1>
 				<p class="text-xl font-bold my-10">We help you diagnose your development workflows and streamline them.</p>
-				<p class="text-lg my-5">Whether you are building a new Team for your Mobile app or want to improve the lead times of an existing one. 
-				The way you develop your application and how you operate it, needs to be coordinated. That experience is not 
-				always available inside the company and Hiring just for a short time feasible or no positions are available. 
-				And you definitely don't want another SCRUM consultant.</p>
+				<p class="text-lg my-5">Whether you are building a new Team for your Mobile app or want to improve the lead times of an existing 
+				development project. The way you develop your application and how you operate it, needs to be coordinated. That experience is not 
+				always available inside the company and Hiring just for a short time feasible or no positions are available.</p>
 
 ​				<p class="text-lg">Thats where we come in. We use our knowledge in systemic thinking and process design combined with our experience 
 					in development and DevOps to help you achieve your goals.</p>
@@ -64,9 +66,9 @@ const location = { latitude: 46.9629963, longitude: 7.4496333 };
 				</div>
 				<div class="text-center">
 					<h2 class="font-bold text-lg mb-5">Contact</h2>
-					<p>Phone: <a href="tel:+41797718000">+41 79 771 80 00</a></p>
-					<p>Mail: <a href="mail:contact@openflowlabs.com">contact@openflowlabs.com</a></p>
-					<div class="flex justify-center">
+					<p>Phone: <Link link="tel:+41797718000">+41 79 771 80 00</Link></p>
+					<p>Mail: <Link link="mail:contact@openflowlabs.com">contact@openflowlabs.com</Link></p>
+					<div class="flex justify-center mt-5">
 						<div class="mr-2.5"><a href="https://twitter.com/openflowlabs"><img  class="w-10 h-10" src={twitterIcon} alt="Twitter" /></a></div>
 						<div class="mr-2.5"><a href="https://www.linkedin.com/company/open-flow-labs/"><img  class="w-10 h-10" src={linkedinIcon} alt="LinkedIn" /></a></div>
 						<div><a href="https://github.com/OpenFlowLabs"><img class="w-10 h-10" src={ghIcon} alt="GitHub" /></a></div>

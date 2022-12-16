@@ -1,0 +1,7 @@
+---
+export interface Props extends astroHTML.JSX.AnchorHTMLAttributes {}
+
+const {link} = Astro.props;
+---
+
+<a class="text-blue-400 hover:underline" href={link}><slot /></a>
