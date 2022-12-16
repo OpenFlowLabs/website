@@ -1,0 +1,14 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import { SITE_TITLE } from '../config';
+---
+
+<section class="hidden lg:block w-full h-80 bg-center bg-cover bg-ofl_logo" />
+<img class="lg:hidden" src="/openflow_labs.png" />
+<header class="py-5 lg:pl-20 w-full">
+	<nav class="flex justify-center lg:justify-start">
+		<HeaderLink href="/">Home</HeaderLink>
+		<HeaderLink href="/blog">Blog</HeaderLink>
+		<HeaderLink href="/about">About</HeaderLink>
+	</nav>
+</header>
