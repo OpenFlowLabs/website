@@ -43,3 +43,4 @@ jobs:
         with:
           project: "openflowlabs-website"
           entrypoint: "./dist/server/entry.mjs"
+          root: ./dist
