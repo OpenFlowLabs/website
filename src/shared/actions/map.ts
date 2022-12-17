@@ -2,6 +2,8 @@ import markerIconRetinaURL from 'leaflet/dist/images/marker-icon-2x.png';
 import markerIconURL from 'leaflet/dist/images/marker-icon.png';
 import markerShadowURL from 'leaflet/dist/images/marker-shadow.png';
 
+const accessToken = Deno.env.get("PUBLIC_MAPBOX_ACCESS_TOKEN");
+
 export function setMap(
 	mapElement: HTMLElement,
 	{
@@ -38,7 +40,7 @@ export function setMap(
 				id: 'mapbox/streets-v11',
 				tileSize: 512,
 				zoomOffset: -1,
-				accessToken: Deno.env.get("PUBLIC_MAPBOX_ACCESS_TOKEN"),
+				accessToken,
 				detectRetina: true,
 			},
 		).addTo(map);
