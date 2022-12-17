@@ -38,7 +38,7 @@ export function setMap(
 				id: 'mapbox/streets-v11',
 				tileSize: 512,
 				zoomOffset: -1,
-				accessToken: import.meta.env.PUBLIC_MAPBOX_ACCESS_TOKEN,
+				accessToken: Deno.env.get("PUBLIC_MAPBOX_ACCESS_TOKEN"),
 				detectRetina: true,
 			},
 		).addTo(map);
