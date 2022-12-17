@@ -2,7 +2,7 @@ import markerIconRetinaURL from 'leaflet/dist/images/marker-icon-2x.png';
 import markerIconURL from 'leaflet/dist/images/marker-icon.png';
 import markerShadowURL from 'leaflet/dist/images/marker-shadow.png';
 
-const accessToken = Deno.env.get("PUBLIC_MAPBOX_ACCESS_TOKEN");
+const accessToken = "pk.eyJ1IjoidG9hc3RlcnNvbiIsImEiOiJjbGJsZGQ2cHgwNWk1M3Fxdm52N3k0Y2cyIn0.E0CsdeZ_F1cG64W3lvnCww";
 
 export function setMap(
 	mapElement: HTMLElement,
