@@ -22,7 +22,7 @@ jobs:
       - name: Install Node
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
 
       - name: Cache npm modules
         uses: actions/cache@v3
@@ -38,9 +38,13 @@ jobs:
       - name: Build site
         run: npm run build
 
+      - name: Copy deno.json to dist
+        run: cp deno.json dist/deno.json
+
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
           project: "openflowlabs-website"
           entrypoint: "./server/entry.mjs"
           root: ./dist
+          import-map: "./deno.json"
