@@ -1,6 +1,17 @@
 {
   "imports": {
-    "piccolore": "npm:piccolore"
+    "@astrojs/internal-helpers/path": "npm:@astrojs/internal-helpers/path",
+    "@astrojs/internal-helpers/remote": "npm:@astrojs/internal-helpers/remote",
+    "@astrojs/rss": "npm:@astrojs/rss",
+    "@oslojs/encoding": "npm:@oslojs/encoding",
+    "clsx": "npm:clsx",
+    "cookie": "npm:cookie",
+    "devalue": "npm:devalue",
+    "html-escaper": "npm:html-escaper",
+    "mrmime": "npm:mrmime",
+    "piccolore": "npm:piccolore",
+    "unstorage": "npm:unstorage",
+    "zod": "npm:zod"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
